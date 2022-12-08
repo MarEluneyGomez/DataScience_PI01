@@ -40,7 +40,7 @@ Las consultas a realizar son:
 7. **PLUS**: realizar un deployment en Mogenius .
   
   ## **Realizacion del Proyecto**
- ##**Limpieza de Datos**
+ **Limpieza de Datos**
  
  +  Primero lei los cuatro archivos suministrados con ayuda de Pandas y cree un dataframe para cada uno.
  
@@ -64,17 +64,25 @@ Las consultas a realizar son:
    
  +  Exporte el dataframe como un nuevo csv.
  
- ##**Creacion de la API**
+ **Creacion de la API**
  
  +  Cree un archivo main.py donde importe la libreria de python FastAPI que me permitio crear la API.
+
  +  Cree 5 Querys (1 mensaje de bienvenida y 4 funciones).
+ 
  +  Corri la API.
+ 
  +  Comprobe el buen funcionamiento de la API.
+ 
  +  
- ##**Deployd en Docker**
+ **Deployd en Docker**
+ 
  + Cree un archivos requirements.txt donde puse todas las librerias necesarias a instalar para el correcto funcionamiento de la API.
+ 
  + Cree una imagen de docker siguiendo el paso a paso puesto en el github https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
+ 
  + cree un container para la imagen siguiendo el mismo tutorial.
+ 
  + probe en correcto funcionamiento de la API en el container.
 
 
