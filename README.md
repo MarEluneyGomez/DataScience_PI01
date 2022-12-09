@@ -74,16 +74,33 @@ Las consultas a realizar son:
  
  +  Comprobe el buen funcionamiento de la API.
  
- +  
  **Deployd en Docker**
  
  + Cree un archivos requirements.txt donde puse todas las librerias necesarias a instalar para el correcto funcionamiento de la API.
  
  + Cree una imagen de docker siguiendo el paso a paso puesto en el github https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
  
- + cree un container para la imagen siguiendo el mismo tutorial.
+ + Cee un container para la imagen siguiendo el mismo tutorial.
  
- + probe en correcto funcionamiento de la API en el container.
+ + Probe en correcto funcionamiento de la API en el container.
+ 
+ 
+**Deployd en Mongenius**
+
++ Me dirigi a la pagina https://studio.mogenius.com
+
++ Luego de logearme, cree un nuevo CloudSpace
+
++ Cree un deploy con la opcion 'Deployd from your repository' 
+
++ Logue mi github y elegi este repositorio, elegi el puerto 80 y subi las especificaciones al maximo.
+
++ Despues de esto la pagina hace un gitclone del repositorio y un deploys automaticamente
+
++ Copie el link de External Hostname y probe su funcionamiento (datascients-pi-prod-apifast-streaming-plataforms-g9jg99.mo6.mogenius.io)
+
+
+
 
 
 
