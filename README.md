@@ -1,4 +1,4 @@
-# DataScients_PI01
+# DataScience_PI01
 Este es un proyecto hecho por Martín Eluney Gómez Piñeiro, para el curso de Data Scients de Henry en la cohorte 5.
 En este proyecto se me dieron las siguientes pautas a seguir:
 
